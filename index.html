@@ -3,29 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chile | Biografía de una Nación</title>
+    <title>Chile | Biografía y Datos</title>
     <style>
         :root { --primary: #d32f2f; --dark: #121212; --text: #e0e0e0; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--dark); color: var(--text); margin: 0; padding: 0; }
-        header { background: linear-gradient(to right, var(--primary), #8e0000); padding: 50px 20px; text-align: center; }
-        .container { max-width: 900px; margin: auto; padding: 20px; }
-        section { margin: 40px 0; padding: 20px; border-left: 3px solid var(--primary); background: #1e1e1e; border-radius: 0 10px 10px 0; }
-        h2 { color: var(--primary); }
+        body { font-family: 'Segoe UI', sans-serif; background-color: var(--dark); color: var(--text); margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: auto; }
+        header { text-align: center; padding: 40px; border-bottom: 2px solid var(--primary); }
+        section { margin: 30px 0; padding: 20px; background: #1e1e1e; border-radius: 8px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { padding: 12px; border: 1px solid #444; text-align: left; }
+        th { background-color: var(--primary); color: white; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Chile: Biografía de una Nación</h1>
-        <p>Un recorrido por la geografía y cultura del extremo sur del mundo.</p>
-    </header>
     <div class="container">
+        <header>
+            <h1>Chile: Una Nación de Contrastes</h1>
+            <p>Geografía, administración y liderazgo político.</p>
+        </header>
+
         <section>
-            <h2>Geografía</h2>
-            <p>Desde el desierto de Atacama hasta los campos de hielo patagónicos, Chile se define por su increíble diversidad climática y topográfica.</p>
+            <h2>Información General</h2>
+            <p>Chile se caracteriza por su estructura administrativa de <strong>16 regiones</strong>, que abarcan desde Arica y Parinacota en el norte, hasta Magallanes y la Antártica Chilena en el extremo sur.</p>
         </section>
+
         <section>
-            <h2>Historia y Cultura</h2>
-            <p>Hogar de poetas como Pablo Neruda y Gabriela Mistral, Chile ha forjado una identidad única marcada por su resiliencia y riqueza literaria.</p>
+            <h2>Presidentes Recientes</h2>
+            <table>
+                <tr><th>Presidente</th><th>Periodo</th></tr>
+                <tr><td>Gabriel Boric Font</td><td>2022 - Presente</td></tr>
+                <tr><td>Sebastián Piñera Echenique</td><td>2018 - 2022</td></tr>
+                <tr><td>Michelle Bachelet Jeria</td><td>2014 - 2018</td></tr>
+                <tr><td>Sebastián Piñera Echenique</td><td>2010 - 2014</td></tr>
+                <tr><td>Michelle Bachelet Jeria</td><td>2006 - 2010</td></tr>
+            </table>
         </section>
     </div>
 </body>
