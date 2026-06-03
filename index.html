@@ -2,10 +2,31 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi página web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chile | Biografía de una Nación</title>
+    <style>
+        :root { --primary: #d32f2f; --dark: #121212; --text: #e0e0e0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--dark); color: var(--text); margin: 0; padding: 0; }
+        header { background: linear-gradient(to right, var(--primary), #8e0000); padding: 50px 20px; text-align: center; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        section { margin: 40px 0; padding: 20px; border-left: 3px solid var(--primary); background: #1e1e1e; border-radius: 0 10px 10px 0; }
+        h2 { color: var(--primary); }
+    </style>
 </head>
 <body>
-    <h1>¡Hola mundo Soy Javier Leal!</h1>
-    <p>Esta es mi primera página web publicada en GitHub.</p>
-    </body>
+    <header>
+        <h1>Chile: Biografía de una Nación</h1>
+        <p>Un recorrido por la geografía y cultura del extremo sur del mundo.</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Geografía</h2>
+            <p>Desde el desierto de Atacama hasta los campos de hielo patagónicos, Chile se define por su increíble diversidad climática y topográfica.</p>
+        </section>
+        <section>
+            <h2>Historia y Cultura</h2>
+            <p>Hogar de poetas como Pablo Neruda y Gabriela Mistral, Chile ha forjado una identidad única marcada por su resiliencia y riqueza literaria.</p>
+        </section>
+    </div>
+</body>
 </html>
